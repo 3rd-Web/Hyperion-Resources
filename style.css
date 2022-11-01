@@ -2,3 +2,16 @@ html {
     background-color: black;
 }
 
+#logo {
+    filter: invert(.5);
+}
+
+#golddust {
+    color: #FFDD03;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    align-self: center;
+    text-decoration: overline;
+    /* text-underline-offset: 1rem; */
+    opacity: .8;
+}
