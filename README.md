@@ -1,6 +1,4 @@
-# [Paper Kit 2 - Free Bootstrap 4 UI Kit](http://demos.creative-tim.com/paper-kit-2) ![version](https://img.shields.io/badge/version-2.2.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/paper-kit-2/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-paper-kit-2-pro.svg?maxAge=2592000)](https://github.com/creativetimofficial/paper-kit-2/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
-
-![Paper Kit 2](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-kit-2-html/opt_pk2_thumbnail.jpg "Paper Kit 2 Free")
+Made using ![Paper Kit 2](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-kit-2-html/opt_pk2_thumbnail.jpg "Paper Kit 2 Free")
 
 **Paper Kit 2** is a free Bootstrap 4 UI Kit with pale colors, beautiful typography and thoughtful drawings. We created it having paper and drawings in mind.
 
