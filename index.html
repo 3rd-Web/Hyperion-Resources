@@ -27,7 +27,7 @@
     <!-- CSS Files -->
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../assets/css/paper-kit.css?v=2.2.0" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="../assets/demo/demo.css" rel="stylesheet" />
   </head>
@@ -42,11 +42,9 @@
         <div class="navbar-translate">
           <a
             class="navbar-brand"
-            href="https://demos.creative-tim.com/paper-kit/index.html"
+            href="#"
             rel="tooltip"
-            title="Coded by Creative Tim"
             data-placement="bottom"
-            target="_blank"
           >
             <img class="logo" src="../img/logo.png" alt="..." id="logo" />
           </a>
@@ -75,17 +73,12 @@
               >
             </li>
             <li class="nav-item">
-              <a
-                href="#services"
-                class="nav-link"
+              <a href="#services" class="nav-link"
                 ><i class="nc-icon nc-book-bookmark"></i> Services</a
               >
             </li>
             <li class="nav-item">
-              <a
-                href="https://demos.creative-tim.com/paper-kit-2/docs/1.0/getting-started/introduction.html"
-                target="_blank"
-                class="nav-link"
+              <a href="#" class="nav-link"
                 ><i class="nc-icon nc-book-bookmark"></i> Testimonials</a
               >
             </li>
@@ -134,12 +127,24 @@
           </h1>
           <h3>The Greatest Investment You Can Make Is In Your People</h3>
           <br />
-          <button type="button" class="btn btn-outline-neutral btn-round">
-            Services
-          </button>
-          <button type="button" class="btn btn-outline-neutral btn-round">
-            About Us
-          </button>
+          <a href="#about">
+            <button
+              type="button"
+              class="btn btn-outline-neutral btn-round"
+              id="button-magic"
+            >
+              About Us
+            </button></a
+          >
+          <a href="#services">
+            <button
+              type="button"
+              class="btn btn-outline-neutral btn-round"
+              id="button-magic"
+            >
+              Services
+            </button></a
+          >
         </div>
       </div>
     </div>
@@ -148,8 +153,10 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h2 class="title">Delivering Top Talent & Training</h2>
-              <h5 class="description">
+              <h2 class="title" id="marginhooks">
+                Delivering Top Talent & Training
+              </h2>
+              <h5 class="description" id="sauce">
                 Through years of work in the industry as well as access to the
                 best talent acquisition and training tools, we have been able to
                 deliver great talent to satisfied clients. The experience we
@@ -159,9 +166,7 @@
                 firm as if it was a leading staffing agency.
               </h5>
               <br />
-              <a href="#paper-kit" class="btn btn-danger btn-round"
-                >See Details</a
-              >
+              <a href="#" class="btn btn-danger btn-round">See Details</a>
             </div>
           </div>
           <br />
@@ -170,7 +175,7 @@
       </div>
       <div class="section section-dark text-center" id="services">
         <div class="container">
-          <h2 class="title">Our Services</h2>
+          <h2 class="title" id="marginhooks">Our Services</h2>
           <div class="row">
             <div class="col-md-4">
               <div class="info">
@@ -299,17 +304,10 @@
           <nav class="footer-nav">
             <ul>
               <li>
-                <a href="https://www.creative-tim.com" target="_blank"
-                  >Creative Tim</a
-                >
+                <a href="#">Hyperion Resources &copy;2022</a>
               </li>
               <li>
-                <a href="http://blog.creative-tim.com/" target="_blank">Blog</a>
-              </li>
-              <li>
-                <a href="https://www.creative-tim.com/license" target="_blank"
-                  >Licenses</a
-                >
+                <a href="#">Follow Us</a>
               </li>
             </ul>
           </nav>
