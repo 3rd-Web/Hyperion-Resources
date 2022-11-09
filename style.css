@@ -1,34 +1,53 @@
 html {
-    background-color: black;
+  background-color: black;
 }
 
 #logo {
-    filter: invert(.5);
+  filter: invert(0.5);
 }
 
 #golddust {
-    color: #FFDD03;
-    font-weight: 300;
-    letter-spacing: .1rem;
-    align-self: center;
-    text-decoration: overline;
-    /* text-underline-offset: 1rem; */
-    opacity: .8;
+  color: #ffdd03;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  align-self: center;
+  text-decoration: overline;
+  /* text-underline-offset: 1rem; */
+  opacity: 0.8;
 }
 
 #sauce {
-    color: black;
-    opacity: 1;
-    letter-spacing: .01rem;
-    /* text-align: left; */
+  color: black;
+  opacity: 1;
+  letter-spacing: 0.01rem;
+  /* text-align: left; */
 }
 
 #about {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 #marginhooks {
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
+#buttonclass {
+  background-color: #ffdd0384;
+  border-color: #ffdd03;
+  color: black;
+  font-weight: 600;
+}
+
+#buttonclass:hover {
+  background-color: #ffdd03;
+  color: black;
+}
+
+#footerclass{
+    font-weight: 400;
+    width: 100%;
+    display: flex;
+    justify-items: flex-start;
+    padding: 1rem;
+}
